@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -14,19 +15,23 @@
         android:textSize="56sp" />
 
     <Button
-        android:id="@+id/start"
+        android:id="@+id/start_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/start" />
 
     <Button
-        android:id="@+id/pause"
+        android:id="@+id/pause_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/pause" />
+        android:shadowColor="#322020"
+        android:text="@string/pause"
+        android:textColorHighlight="#AA1717"
+        android:textColorLink="#B81212"
+        app:rippleColor="#CC2525" />
 
     <Button
-        android:id="@+id/reset"
+        android:id="@+id/reset_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/reset" />
